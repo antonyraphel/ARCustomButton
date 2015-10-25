@@ -14,6 +14,8 @@
 		3429AE181BDCBE3A005DF222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3429AE171BDCBE3A005DF222 /* Images.xcassets */; };
 		3429AE1B1BDCBE3A005DF222 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3429AE191BDCBE3A005DF222 /* LaunchScreen.xib */; };
 		3429AE271BDCBE3A005DF222 /* ARCustomButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429AE261BDCBE3A005DF222 /* ARCustomButtonTests.m */; };
+		3429AE321BDCC2B3005DF222 /* ButtonSel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3429AE301BDCC2B3005DF222 /* ButtonSel.png */; };
+		3429AE331BDCC2B3005DF222 /* ButtonRound.png in Resources */ = {isa = PBXBuildFile; fileRef = 3429AE311BDCC2B3005DF222 /* ButtonRound.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		3429AE201BDCBE3A005DF222 /* ARCustomButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCustomButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3429AE251BDCBE3A005DF222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3429AE261BDCBE3A005DF222 /* ARCustomButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCustomButtonTests.m; sourceTree = "<group>"; };
+		3429AE301BDCC2B3005DF222 /* ButtonSel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSel.png; sourceTree = "<group>"; };
+		3429AE311BDCC2B3005DF222 /* ButtonRound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonRound.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		3429AE091BDCBE39005DF222 /* ARCustomButton */ = {
 			isa = PBXGroup;
 			children = (
+				3429AE301BDCC2B3005DF222 /* ButtonSel.png */,
+				3429AE311BDCC2B3005DF222 /* ButtonRound.png */,
 				3429AE0E1BDCBE3A005DF222 /* AppDelegate.h */,
 				3429AE0F1BDCBE3A005DF222 /* AppDelegate.m */,
 				3429AE111BDCBE3A005DF222 /* ViewController.h */,
@@ -199,8 +205,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3429AE321BDCC2B3005DF222 /* ButtonSel.png in Resources */,
 				3429AE161BDCBE3A005DF222 /* Main.storyboard in Resources */,
 				3429AE1B1BDCBE3A005DF222 /* LaunchScreen.xib in Resources */,
+				3429AE331BDCC2B3005DF222 /* ButtonRound.png in Resources */,
 				3429AE181BDCBE3A005DF222 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ARCustomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ARCustomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
