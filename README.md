@@ -3,7 +3,7 @@
 When executing the viewDidLoad method, based on array items UIButtons will be created dynamically and properties are set.
 
 Screens:
-![image](https://cloud.githubusercontent.com/assets/10744130/10715718/04f09414-7b46-11e5-883f-ceaafa34cff6.png)
+![image]((https://cloud.githubusercontent.com/assets/10744130/10715718/04f09414-7b46-11e5-883f-ceaafa34cff6.png)=100x20)
 
 ![Alt text]((https://cloud.githubusercontent.com/assets/10744130/10715718/04f09414-7b46-11e5-883f-ceaafa34cff6.png) "Type 1")
 
