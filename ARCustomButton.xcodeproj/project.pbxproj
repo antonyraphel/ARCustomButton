@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3429AE0D1BDCBE3A005DF222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429AE0C1BDCBE3A005DF222 /* main.m */; };
+		3429AE101BDCBE3A005DF222 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429AE0F1BDCBE3A005DF222 /* AppDelegate.m */; };
+		3429AE131BDCBE3A005DF222 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429AE121BDCBE3A005DF222 /* ViewController.m */; };
+		3429AE161BDCBE3A005DF222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3429AE141BDCBE3A005DF222 /* Main.storyboard */; };
+		3429AE181BDCBE3A005DF222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3429AE171BDCBE3A005DF222 /* Images.xcassets */; };
+		3429AE1B1BDCBE3A005DF222 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3429AE191BDCBE3A005DF222 /* LaunchScreen.xib */; };
+		3429AE271BDCBE3A005DF222 /* ARCustomButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3429AE261BDCBE3A005DF222 /* ARCustomButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3429AE211BDCBE3A005DF222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3429ADFF1BDCBE39005DF222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3429AE061BDCBE39005DF222;
+			remoteInfo = ARCustomButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3429AE071BDCBE39005DF222 /* ARCustomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCustomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3429AE0B1BDCBE3A005DF222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3429AE0C1BDCBE3A005DF222 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3429AE0E1BDCBE3A005DF222 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3429AE0F1BDCBE3A005DF222 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3429AE111BDCBE3A005DF222 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3429AE121BDCBE3A005DF222 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3429AE151BDCBE3A005DF222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3429AE171BDCBE3A005DF222 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3429AE1A1BDCBE3A005DF222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3429AE201BDCBE3A005DF222 /* ARCustomButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCustomButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3429AE251BDCBE3A005DF222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3429AE261BDCBE3A005DF222 /* ARCustomButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCustomButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3429AE041BDCBE39005DF222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3429AE1D1BDCBE3A005DF222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3429ADFE1BDCBE39005DF222 = {
+			isa = PBXGroup;
+			children = (
+				3429AE091BDCBE39005DF222 /* ARCustomButton */,
+				3429AE231BDCBE3A005DF222 /* ARCustomButtonTests */,
+				3429AE081BDCBE39005DF222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3429AE081BDCBE39005DF222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3429AE071BDCBE39005DF222 /* ARCustomButton.app */,
+				3429AE201BDCBE3A005DF222 /* ARCustomButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3429AE091BDCBE39005DF222 /* ARCustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				3429AE0E1BDCBE3A005DF222 /* AppDelegate.h */,
+				3429AE0F1BDCBE3A005DF222 /* AppDelegate.m */,
+				3429AE111BDCBE3A005DF222 /* ViewController.h */,
+				3429AE121BDCBE3A005DF222 /* ViewController.m */,
+				3429AE141BDCBE3A005DF222 /* Main.storyboard */,
+				3429AE171BDCBE3A005DF222 /* Images.xcassets */,
+				3429AE191BDCBE3A005DF222 /* LaunchScreen.xib */,
+				3429AE0A1BDCBE39005DF222 /* Supporting Files */,
+			);
+			path = ARCustomButton;
+			sourceTree = "<group>";
+		};
+		3429AE0A1BDCBE39005DF222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3429AE0B1BDCBE3A005DF222 /* Info.plist */,
+				3429AE0C1BDCBE3A005DF222 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3429AE231BDCBE3A005DF222 /* ARCustomButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3429AE261BDCBE3A005DF222 /* ARCustomButtonTests.m */,
+				3429AE241BDCBE3A005DF222 /* Supporting Files */,
+			);
+			path = ARCustomButtonTests;
+			sourceTree = "<group>";
+		};
+		3429AE241BDCBE3A005DF222 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3429AE251BDCBE3A005DF222 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3429AE061BDCBE39005DF222 /* ARCustomButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3429AE2A1BDCBE3A005DF222 /* Build configuration list for PBXNativeTarget "ARCustomButton" */;
+			buildPhases = (
+				3429AE031BDCBE39005DF222 /* Sources */,
+				3429AE041BDCBE39005DF222 /* Frameworks */,
+				3429AE051BDCBE39005DF222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCustomButton;
+			productName = ARCustomButton;
+			productReference = 3429AE071BDCBE39005DF222 /* ARCustomButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3429AE1F1BDCBE3A005DF222 /* ARCustomButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3429AE2D1BDCBE3A005DF222 /* Build configuration list for PBXNativeTarget "ARCustomButtonTests" */;
+			buildPhases = (
+				3429AE1C1BDCBE3A005DF222 /* Sources */,
+				3429AE1D1BDCBE3A005DF222 /* Frameworks */,
+				3429AE1E1BDCBE3A005DF222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3429AE221BDCBE3A005DF222 /* PBXTargetDependency */,
+			);
+			name = ARCustomButtonTests;
+			productName = ARCustomButtonTests;
+			productReference = 3429AE201BDCBE3A005DF222 /* ARCustomButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3429ADFF1BDCBE39005DF222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Antony Raphel";
+				TargetAttributes = {
+					3429AE061BDCBE39005DF222 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3429AE1F1BDCBE3A005DF222 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3429AE061BDCBE39005DF222;
+					};
+				};
+			};
+			buildConfigurationList = 3429AE021BDCBE39005DF222 /* Build configuration list for PBXProject "ARCustomButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3429ADFE1BDCBE39005DF222;
+			productRefGroup = 3429AE081BDCBE39005DF222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3429AE061BDCBE39005DF222 /* ARCustomButton */,
+				3429AE1F1BDCBE3A005DF222 /* ARCustomButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3429AE051BDCBE39005DF222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3429AE161BDCBE3A005DF222 /* Main.storyboard in Resources */,
+				3429AE1B1BDCBE3A005DF222 /* LaunchScreen.xib in Resources */,
+				3429AE181BDCBE3A005DF222 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3429AE1E1BDCBE3A005DF222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3429AE031BDCBE39005DF222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3429AE131BDCBE3A005DF222 /* ViewController.m in Sources */,
+				3429AE101BDCBE3A005DF222 /* AppDelegate.m in Sources */,
+				3429AE0D1BDCBE3A005DF222 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3429AE1C1BDCBE3A005DF222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3429AE271BDCBE3A005DF222 /* ARCustomButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3429AE221BDCBE3A005DF222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3429AE061BDCBE39005DF222 /* ARCustomButton */;
+			targetProxy = 3429AE211BDCBE3A005DF222 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3429AE141BDCBE3A005DF222 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3429AE151BDCBE3A005DF222 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3429AE191BDCBE3A005DF222 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3429AE1A1BDCBE3A005DF222 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3429AE281BDCBE3A005DF222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3429AE291BDCBE3A005DF222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3429AE2B1BDCBE3A005DF222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARCustomButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3429AE2C1BDCBE3A005DF222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARCustomButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3429AE2E1BDCBE3A005DF222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ARCustomButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCustomButton.app/ARCustomButton";
+			};
+			name = Debug;
+		};
+		3429AE2F1BDCBE3A005DF222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ARCustomButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCustomButton.app/ARCustomButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3429AE021BDCBE39005DF222 /* Build configuration list for PBXProject "ARCustomButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3429AE281BDCBE3A005DF222 /* Debug */,
+				3429AE291BDCBE3A005DF222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3429AE2A1BDCBE3A005DF222 /* Build configuration list for PBXNativeTarget "ARCustomButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3429AE2B1BDCBE3A005DF222 /* Debug */,
+				3429AE2C1BDCBE3A005DF222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3429AE2D1BDCBE3A005DF222 /* Build configuration list for PBXNativeTarget "ARCustomButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3429AE2E1BDCBE3A005DF222 /* Debug */,
+				3429AE2F1BDCBE3A005DF222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3429ADFF1BDCBE39005DF222 /* Project object */;
+}
